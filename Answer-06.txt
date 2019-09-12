@@ -1,0 +1,65 @@
+
+------- output data :-----------
+
+Volcano data analysis 
+[ with Earthquake & Tsunami status ]:
+
+-----------------------------------
+
+                              Month
+Country                            
+Antarctica                        1
+Cameroon                          3
+Canada                            1
+Cape Verde                        3
+Chile                            20
+China                             1
+Colombia                         10
+Comoros                           6
+Congo, DRC                        5
+Costa Rica                        6
+Ecuador                          23
+El Salvador                       6
+Eritrea                           2
+Ethiopia                          4
+Greece                            8
+Guadeloupe                        1
+Guatemala                        19
+Iceland                          53
+Indonesia                       194
+Italy                            58
+Japan                           135
+Martinique                        4
+Mexico                           12
+Montserrat                        6
+Netherlands                       2
+New Zealand                      14
+Nicaragua                         8
+North Korea                       1
+Pacific Ocean                     9
+Papua New Guinea                 40
+Peru                              4
+Philippines                      46
+Portugal                          6
+Reunion                           1
+Russia                           20
+Samoa                             2
+Saudi Arabia                      1
+Solomon Is.                       7
+Spain                             4
+St. Kitts & Nevis                 1
+St. Vincent & the Grenadines      3
+Taiwan                            1
+Tanzania                          5
+Tonga                             4
+Trinidad                          1
+Turkey                            1
+United States                    49
+Vanuatu                          17
+Vietnam                           1
+Yemen                             4
+--------------------------------------
+
+Total number of Volcanoes = 
+ Month    833
+dtype: int64
