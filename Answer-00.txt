@@ -1,0 +1,53 @@
+------- output data :-----------
+
+Volcano data analysis 
+[ with Earthquake & Tsunami status ]:
+
+-----------------------------------
+
+---------------------------------------------
+Dimension of the data frame =  (833, 36)
+---------------------------------------------
+------------------------
+ Column names as follows :
+------------------------
+
+0 --> Year
+1 --> Month
+2 --> Day
+3 --> TSU
+4 --> EQ
+5 --> Name
+6 --> Location
+7 --> Country
+8 --> Latitude
+9 --> Longitude
+10 --> Elevation
+11 --> Type
+12 --> Status
+13 --> Time
+14 --> VEI
+15 --> Agent
+16 --> DEATHS
+17 --> DEATHS_DESCRIPTION
+18 --> MISSING
+19 --> MISSING_DESCRIPTION
+20 --> INJURIES
+21 --> INJURIES_DESCRIPTION
+22 --> DAMAGE_MILLIONS_DOLLARS
+23 --> DAMAGE_DESCRIPTION
+24 --> HOUSES_DESTROYED
+25 --> HOUSES_DESTROYED_DESCRIPTION
+26 --> TOTAL_DEATHS
+27 --> TOTAL_DEATHS_DESCRIPTION
+28 --> TOTAL_MISSING
+29 --> TOTAL_MISSING_DESCRIPTION
+30 --> TOTAL_INJURIES
+31 --> TOTAL_INJURIES_DESCRIPTION
+32 --> TOTAL_DAMAGE_MILLIONS_DOLLARS
+33 --> TOTAL_DAMAGE_DESCRIPTION
+34 --> TOTAL_HOUSES_DESTROYED
+35 --> TOTAL_HOUSES_DESTROYED_DESCRIPTION
+
+-----------------------------
+
