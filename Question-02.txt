@@ -1,0 +1,38 @@
+#------------ Question -02 ------------------------
+#----- Types of the volcanoes -----
+
+# -*- coding: utf-8 -*-
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import random
+
+# Reading and converting to CSV file
+
+df = pd.read_table('/home/jeet/Desktop/all_volcano.txt')
+df.to_csv("/home/jeet/Desktop/all_volcano.csv", encoding='utf-8',sep=',',index=False)
+
+# Reading the newly created CSV file
+
+df=pd.read_csv("/home/jeet/Desktop/all_volcano.csv", encoding='utf-8')  
+
+print("\n------- output data :-----------\n")
+print("Volcano data analysis \n[ with Earthquake & Tsunami status ]:")
+print("\n-----------------------------------\n")
+
+
+df['Month'] = df['Month'].replace(np.nan,0)
+df_type = df.groupby(['Type'])[['Month']].count()
+
+print(df_type)
+print("--------------------------------------\n")
+print("Total number of Volcanoes = \n",sum(df_type))
+
+sl_no = np.arange(0,20)
+
+plt.title("[Question - 02] Different types of volcanoes :") 
+plt.xlabel("Sl. no. of the different types of volcanoes -->") 
+plt.ylabel("no. of Different types of volcanoes --->")   
+plt.plot(sl_no,df_type)
+plt.show()
+
