@@ -1,0 +1,61 @@
+#-------- Question-12 ---------------
+#------- Detailed description of the volcanoes ---------------
+
+# -*- coding: utf-8 -*-
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import random
+
+# Reading and converting to CSV file
+
+df = pd.read_table('/home/jeet/Desktop/all_volcano.txt')
+df.to_csv("/home/jeet/Desktop/all_volcano.csv", encoding='utf-8',sep=',',index=False)
+
+# Reading the newly created CSV file
+
+df=pd.read_csv("/home/jeet/Desktop/all_volcano.csv", encoding='utf-8')  
+
+print("\n------- output data :-----------\n")
+print("Volcano data analysis \n[ with Earthquake & Tsunami status ]:")
+print("\n-----------------------------------\n")
+
+
+year = df['Year']
+name = df['Name']
+types = df['Type']
+status = df['Status']
+
+loc = df['Location']
+coun = df['Country']
+lat = df['Latitude']
+lon = df['Longitude']
+
+tsu = df['TSU']
+eq = df['EQ']
+
+time =df['Time']
+
+for i in range(0,833):
+    print("\n\n---------------------------------------")
+    print('\tVolcano number = ',i)
+    print('-----------------------------------\n')
+
+    print("Year = ",year[i]) 
+    print("Name = ",name[i])
+    print("Type = ",types[i])
+    print("Status = ",status[i])
+
+    print("\nLocation = ",loc[i]) 
+    print("Country = ",coun[i])
+    print("latitude = ",lat[i]) 
+    print("longitude = ",lon[i]) 
+
+    print("\nTsunami status = ",tsu[i]) 
+    print("Eartquake status = ",eq[i]) 
+
+    print("\nTime = ",time[i])
+    
+print("---------------------------------------\n")
+
+
