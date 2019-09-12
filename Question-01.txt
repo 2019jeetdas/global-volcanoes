@@ -1,0 +1,33 @@
+#------------ Question -01 ------------------------
+#----- Yearwise number of Volcanoes & total no. -----
+
+# -*- coding: utf-8 -*-
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import random
+
+# Reading and converting to CSV file
+
+df = pd.read_table('/home/jeet/Desktop/all_volcano.txt')
+df.to_csv("/home/jeet/Desktop/all_volcano.csv", encoding='utf-8',sep=',',index=False)
+
+# Reading the newly created CSV file
+
+df=pd.read_csv("/home/jeet/Desktop/all_volcano.csv", encoding='utf-8')  
+
+print("\n------- output data :-----------\n")
+print("Volcano data analysis \n[ with Earthquake & Tsunami status ]:")
+print("\n-----------------------------------\n")
+
+
+df_yearwise = df.groupby(['Year'])[['Month']].count()
+print(df_yearwise)
+print("--------------------------------------\n")
+print("Total number of Volcanoes = \n",sum(df_yearwise))
+
+plt.title("[Question-01] Number of Volcanoes yearwise ")
+plt.xlabel("Year --->")
+plt.ylabel("No. of Volcanoes ---->")
+plt.plot(df_yearwise)
+plt.show()
