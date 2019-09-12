@@ -1,0 +1,78 @@
+
+------- output data :-----------
+
+Volcano data analysis 
+[ with Earthquake & Tsunami status ]:
+
+-----------------------------------
+
+                      Month
+Location                   
+Admiralty Is-SW Paci      2
+Africa-C                  5
+Africa-E                  5
+Africa-NE                 6
+Africa-W                  3
+Alaska Peninsula          4
+Alaska-E                  2
+Alaska-SW                 6
+Aleutian Is               8
+Antarctica                1
+Arabia-S                  2
+Arabia-W                  1
+Azores                    6
+Banda Sea                10
+Bougainville-SW Paci      3
+Canada                    1
+Canary Is                 4
+Cape Verde Is             3
+Chile-C                   9
+Chile-Is                  1
+Chile-S                  10
+China-E                   1
+China-S                   1
+Colombia                 10
+Costa Rica                6
+Ecuador                  22
+El Salvador               6
+Galapagos                 1
+Greece                    8
+Guatemala                19
+                    ...
+Luzon-N of                1
+Luzon-Philippines        37
+Mariana Is-C Pacific      2
+Mexico                   12
+Mindanao-Philippines      7
+New Britain-SW Pac       13
+New Guinea                2
+New Guinea-NE of         20
+New Zealand              11
+Nicaragua                 8
+Peru                      4
+Philippines-C             1
+Red Sea                   2
+Ryukyu Is                 4
+SE Asia                   1
+Samoa-SW Pacific          3
+Sangihe Is-Indonesia     21
+Santa Cruz Is-SW Pac      4
+Solomon Is-SW Pacifi      3
+Sulawesi-Indonesia        6
+Sumatra                  15
+Taiwan-E of               1
+Tonga-SW Pacific          4
+Trinidad                  1
+Turkey                    1
+US-Oregon                 2
+US-Washington             3
+US-Wyoming                1
+Vanuatu-SW Pacific       17
+W Indies                 17
+
+[78 rows x 1 columns]
+--------------------------------------
+
+Total number of Volcanoes = 
+ Month    833
+dtype: int64
