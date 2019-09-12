@@ -1,0 +1,35 @@
+
+------- output data :-----------
+
+Volcano data analysis 
+[ with Earthquake & Tsunami status ]:
+
+-----------------------------------
+
+                     Month
+Type                      
+Caldera                 68
+Cinder cone              2
+Complex volcano         89
+Compound volcano         2
+Crater rows              1
+Fissure vent             4
+Lava cone                1
+Lava dome                9
+Maar                     2
+Mud volcano              1
+Pumice cone              1
+Pyroclastic cone         3
+Pyroclastic shield      12
+Shield volcano          63
+Stratovolcano          536
+Subglacial volcano      15
+Submarine volcano       16
+Submarine volcanoes      1
+Tuff cone                4
+Volcanic field           3
+--------------------------------------
+
+Total number of Volcanoes = 
+ Month    833
+dtype: int64
