@@ -1,0 +1,21 @@
+------- output data :-----------
+
+Volcano data analysis 
+[ with Earthquake & Tsunami status ]:
+
+-----------------------------------
+
+                  Month
+Status                 
+Anthropology          4
+Fumarolic             1
+Historical          773
+Holocene             31
+Radiocarbon          19
+Tephrochronology      4
+Uncertain             1
+--------------------------------------
+
+Total number of Volcanoes = 
+ Month    833
+dtype: int64
