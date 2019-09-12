@@ -1,0 +1,34 @@
+#------------ Question - 10 ------------------------
+#----- TOTAL_DAMAGE_MILLIONS_DOLLARS for the volcanoes  and plotting-----
+
+# -*- coding: utf-8 -*-
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import random
+
+# Reading and converting to CSV file
+
+df = pd.read_table('/home/jeet/Desktop/all_volcano.txt')
+df.to_csv("/home/jeet/Desktop/all_volcano.csv", encoding='utf-8',sep=',',index=False)
+
+# Reading the newly created CSV file
+
+df=pd.read_csv("/home/jeet/Desktop/all_volcano.csv", encoding='utf-8')  
+
+print("\n------- output data :-----------\n")
+print("Volcano data analysis \n[ with Earthquake & Tsunami status ]:")
+print("\n-----------------------------------\n")
+
+
+damage = df['TOTAL_DAMAGE_MILLIONS_DOLLARS'].replace(np.nan,0)
+
+for i in range(0,833):
+    print('Volcano =',i+1,'---->',int(damage[i]))
+    
+    
+plt.title("[Question - 10] TOTAL_DAMAGE_MILLIONS_DOLLARS for Volcanoes")
+plt.xlabel("Sl. no of the volcanoes ---->")
+plt.ylabel("TOTAL_DAMAGE_MILLIONS_DOLLARS ---->")
+plt.plot(damage)
+plt.show()
